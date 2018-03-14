@@ -38,6 +38,7 @@ git clone https://github.com/ipedrero/snx.git
 
 Now we are going to compile the Client:
 
+chmod a+x+w -R snx/
 cd giro
 ./autogen.sh
 ./configure
