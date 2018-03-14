@@ -43,7 +43,7 @@ More information at [snxproject.com](http://www.snxproject.com)
 
 ### Staking Methods
 <table>
-<tr><td>Masternodes</td><td>Yes - 25k snx Required</td></tr>
+<tr><td>Masternodes</td><td>Yes - 10k snx Required</td></tr>
 <tr><td>Wallet Staking</td><td>Yes - 1 to infinite snx</td></tr>
 </table>
 
