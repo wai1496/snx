@@ -63,7 +63,7 @@ snx-cli getaccountaddress 0
 
 copy the generated address to a text file
 
-Send 10000 GIRO to "address 0"
+Send 10000 SNX to "address 0"
 
 go to snx.conf in
 
