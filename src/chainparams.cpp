@@ -334,11 +334,18 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
       boost::assign::map_list_of(0, uint256("0x9a625e344ce64bbfb0f180a2fe74786f59c31995a58ebe45618e2a1a48343bca"))
 	    (5, uint256("0x00000ac8d283bad8b9adc43dc6c8f638da0491cdf1656f90df386894f2d76377"))	
         (10, uint256("0x0000036d0ddaaf9372b618306592bc5b41f710da465b0278c05c4fb6abe917ff"))
+		(10000, uint256("0xcd88d329021fdd6860ae375f9c8a5b51149c6e256030c5abf93754de8cb336a7"))
+		(20000, uint256("0x86be5d0882051b8371395764644ed77128621218155baace6313d68b227f70d5"))
+		(30000, uint256("0x2b6e8dda4ad85ecd11773b4ecaf821e3b3db851da743c1a919ea2f4d38ccfde8"))
+		(32000, uint256("0x49d71db035315eb676b49c4400bc17ff240a50a73409835743830438e8c62c37"))
+		(34000, uint256("0xd7581143fa460c789567a399cfa29052862dfff3b5f9533dab152aba6d3e1a80"))		
+		(36000, uint256("0x039f26ab08ede8bb4ae6a27c79a23ea2203261e9cab4b712ce09801cfc25a3e9"))	
+		(38806, uint256("0x0803732bf3879b8434d533fd75f32d63d2407fd2683d6a2159344713f9dec838"))		
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1517862041, // * UNIX timestamp of last checkpoint block
-    11,    // * total number of transactions between genesis and last checkpoint
+    1522307438, // * UNIX timestamp of last checkpoint block
+    74499,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1200        // * estimated number of transactions per day after checkpoint
 };
@@ -420,10 +427,11 @@ public:
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
 	convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
-	vSeeds.push_back(CDNSSeedData("45.76.13.31", "45.76.13.31"));     // United States Seed
+	vSeeds.push_back(CDNSSeedData("45.77.223.161", "45.77.223.161"));     // United States Seed
         vSeeds.push_back(CDNSSeedData("45.77.143.52", "45.77.143.52"));    // Germany Seed
         vSeeds.push_back(CDNSSeedData("199.247.9.247", "199.247.9.247"));         // France Seed
         vSeeds.push_back(CDNSSeedData("45.76.202.59", "45.76.202.59")); // Japan Seed
+		
 	
         fRequireRPCPassword = true;
         fMiningRequiresPeers = true;
